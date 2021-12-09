@@ -12,7 +12,7 @@
                 </p> -->
             </div>
             <div class="col-lg-8 col-md-12 order-2" style="margin-left: 0; padding: 0" id="hero-img-div">
-                <img src="{{ asset('img/sk-logo.png') }}" style="height: 100%">
+                <img src="{{ asset('img/sk-logo.png') }}" style="height: 100%" class="img-fluid">
             </div>
         </div>
     </div>
