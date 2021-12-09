@@ -41,7 +41,10 @@ body {
     /* .proj-desc, .projttl, .cta-live,{
         text-align: center;
     } */
-    #hero-img-div {
+    /* #hero-img-div {
+        display: none !important;
+    } */
+    #hero-test-div {
         display: none !important;
     }
 }

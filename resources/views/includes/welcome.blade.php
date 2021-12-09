@@ -3,7 +3,7 @@
     <div id="hero" class="jumbotron aos-init aos-animate welcome-page-one" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100" style="width: 100%;">
     <!-- <div class="container"> -->
         <div class="row align-items-center h-100" style="margin-left: 0; margin-right: 0; width: 100%">
-            <div class="col-lg-4 col-md-12 col-sm-12 order-1" style="padding:0">
+            <div class="col-lg-4 col-md-12 col-sm-12 order-1" style="padding:0" id="hero-text-div">
                 <h1 class="hero-title aos-init aos-animate pl-5 text-right" id="title-hero" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200" style="text-align: left;">Ang mga <span class="text-color-main">Kabataan</span> ang pag-asa ng <span class="text-color-main">Bayan</span>.</h1>
                 <!-- <p class="hero-cta" id="hero-btn" data-aos="fade-right"data-aos-easing="ease-in-out" data-aos-delay="300">
                     <a class="cta-btn cta-btn--hero">
