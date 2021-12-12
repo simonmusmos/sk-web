@@ -1,5 +1,11 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top">
+@if(Route::current()->getName() == 'home')
+<nav class="navbar navbar-non-transparent-bg navbar-expand-lg navbar-dark shadow-5-strong fixed-top">
+@else
+<!-- <nav class="navbar navbar-transparent-bg navbar-expand-lg navbar-dark shadow-5-strong fixed-top"> -->
+<nav class="navbar navbar-non-transparent-bg navbar-expand-lg navbar-dark shadow-5-strong fixed-top">
+@endif
+
     <!-- Container wrapper -->
     <div class="container-fluid">
         <!-- Navbar brand -->
@@ -23,10 +29,10 @@
             <!-- Left links -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto sk-nav-main">
                 <li class="nav-item mr-4">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item mr-4">
-                    <a class="nav-link" href="#">Registration</a>
+                    <a class="nav-link" href="{{ route('registration.index') }}">Registration</a>
                 </li>
                 <li class="nav-item mr-4">
                     <a class="nav-link" href="#">Events and Programs</a>

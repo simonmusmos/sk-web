@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MemberController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('includes.welcome');
-});
+})->name('home');
+
+Route::get('/register', function () {
+    return view('includes.registration');
+})->name('registration.index');
+
+Route::post('/register', [MemberController::class, 'create'])->name('registration.process');
