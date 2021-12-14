@@ -299,7 +299,13 @@ table {
 
 @media (max-width: 991px) {
     #title-hero {
-        display: none;
+        display: none !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .show-lg {
+        display: none !important;
     }
 }
 
@@ -320,14 +326,14 @@ table {
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 770px) {
     /* .proj-desc, .projttl, .cta-live,{
         text-align: center;
     } */
     /* #hero-img-div {
         display: none !important;
     } */
-    #hero-img-div {
+    #hero-img-div img {
         width: 100% !important;
         height: auto !important;
     }
