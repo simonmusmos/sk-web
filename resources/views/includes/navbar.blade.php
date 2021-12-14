@@ -38,7 +38,7 @@
                     <a class="nav-link" href="#">Events and Programs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sangguniang Kabataan Members</a>
+                    <a class="nav-link" href="{{ route('registration.list') }}">Sangguniang Kabataan Members</a>
                 </li>
                 <!-- Navbar dropdown -->
                 <!-- <li class="nav-item dropdown">

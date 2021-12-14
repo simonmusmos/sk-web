@@ -26,4 +26,25 @@ class MemberController extends Controller
 
         echo json_encode(Array("result" => true));
     }
+
+    public function index(Request $request){
+        $members = Member::where('first_name', 'LIKE', @$request->key.'%')
+                                    ->orWhere('middle_name', 'LIKE', @$request->key.'%')
+                                    ->orWhere('last_name', 'LIKE', @$request->key.'%')
+                                    ->orWhere('email', 'LIKE', @$request->key.'%')
+                                    ->paginate(20);
+
+        if(@$request->key != "" || @$request->key != NULL){
+                $members->appends (array ('key' => @$request->key));  
+        }
+        
+
+        $data = array(
+            'members'=>$members
+            );
+
+
+
+        return view('includes.masterlist')->with($data);
+    }
 }

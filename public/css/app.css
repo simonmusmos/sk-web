@@ -41,9 +41,49 @@ body {
 }
 
 #hero {
-    background-image: url("../img/sk-bg-2.jpg") !important;
+    background-image: url("../img/sk-bg-2-op-50.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+thead {
+    background-color: #1c2a48;
+}
+
+.table thead th,
+.table thead tr {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table {
+    font-size: small;
+}
+
+.pagination li a {
+    color: #1c2a48;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #1c2a48;
+    border-color: #1c2a48;
+}
+
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.purple-border {
+    border: 1px solid #9e9e9e;
+    margin-bottom: 20px;
+}
+.input-group.md-form.form-sm.form-2
+    input[type="text"]:focus:not([readonly]).purple-border {
+    border: 1px solid #1c2a48;
+    box-shadow: none;
 }
 
 /* #registration-background {
@@ -56,7 +96,7 @@ body {
 } */
 
 #registration-background {
-    background-image: url("../img/sk-bg-2.jpg") !important;
+    background-image: url("../img/sk-bg-2-op-50.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
     color: #e6e6ea;
@@ -117,7 +157,7 @@ body {
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    border: 1px solid #fed766;
+    border: 1px solid #1c2a48;
     outline-width: 0;
     transition: All 0.5s ease-in;
     -webkit-transition: All 0.5s ease-in;
@@ -128,7 +168,7 @@ body {
 /*buttons*/
 #msform .action-button {
     width: 100px;
-    background: #fed766;
+    background: #1c2a48;
     font-weight: bold;
     color: white;
     border: 0 none;
@@ -140,7 +180,7 @@ body {
 
 #msform .action-button:hover,
 #msform .action-button:focus {
-    box-shadow: 0 0 0 2px white, 0 0 0 3px #fed766;
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #1c2a48;
 }
 
 #msform .action-button-previous {
@@ -231,7 +271,7 @@ body {
 /*The number of the step and the connector before it = green*/
 #progressbar li.active:before,
 #progressbar li.active:after {
-    background: #fed766;
+    background: #1c2a48;
     color: white;
 }
 
@@ -243,7 +283,7 @@ body {
 .dme_link a {
     background: #fff;
     font-weight: bold;
-    color: #fed766;
+    color: #1c2a48;
     border: 0 none;
     border-radius: 25px;
     cursor: pointer;
@@ -255,6 +295,23 @@ body {
 .dme_link a:focus {
     background: #c5c5f1;
     text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .projttl,
+    .proj-desc {
+        text-align: center;
+    }
+
+    .show-sm {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 993px) {
+    .show-lg {
+        display: flex !important;
+    }
 }
 
 @media (max-width: 550px) {

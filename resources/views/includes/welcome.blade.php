@@ -29,7 +29,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 d-flex align-items-center">
-                            <div class="project-wrapper__text">
+                            <div class="project-wrapper__text mx-auto">
                                 <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="100">Trixie Anne N. Bayombon</h2>
                                 <div data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="200">
                                     <h3 class="mb-4 proj-desc ">SK Chairperson &nbsp 2018 - 2022</h3>
@@ -42,7 +42,7 @@
 
                     <div class="row">
                         
-                        <div class="col-lg-4 d-flex align-items-center">
+                        <div class="col-lg-4 d-flex align-items-center d-sm-none show-lg">
                             <div class="project-wrapper__text">
                                 <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="100">Veronica L. Broso</h2>
                                 <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200">
@@ -56,6 +56,15 @@
                                 <img src="{{ asset('img/officials/secretary.png') }}"style="width: 60%">
                             </div>
                         </div>
+
+                        <div class="col-lg-4 d-flex align-items-center d-md-none show-sm">
+                            <div class="project-wrapper__text mx-auto">
+                                <h2 class="project-wrapper__text-title projttl mb-1 " data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="100">Veronica L. Broso</h2>
+                                <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200">
+                                    <h3 class="mb-4 proj-desc ">SK Secretary &nbsp 2018 - 2022</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="row">
@@ -65,7 +74,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 d-flex align-items-center">
-                            <div class="project-wrapper__text">
+                            <div class="project-wrapper__texy mx-auto">
                                 <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="100">Judy Anne M. De Leon</h2>
                                 <div data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="200">
                                     <h3 class="mb-4 proj-desc ">SK Treasurer &nbsp 2018 - 2022</h3>
@@ -78,7 +87,7 @@
 
                     <div class="row">
                         
-                        <div class="col-lg-4 d-flex align-items-center">
+                        <div class="col-lg-4 d-flex align-items-center d-sm-none show-lg">
                             <div class="project-wrapper__text">
                                 <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="100">Jechris A. Aunario</h2>
                                 <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200">
@@ -92,6 +101,15 @@
                                 <img src="{{ asset('img/officials/kagawad-1.png') }}"style="width: 60%">
                             </div>
                         </div>
+
+                        <div class="col-lg-4 d-flex align-items-center d-md-none show-sm">
+                            <div class="project-wrapper__text mx-auto">
+                                <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="100">Jechris A. Aunario</h2>
+                                <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200">
+                                    <h3 class="mb-4 proj-desc ">SK Kagawad &nbsp 2018 - 2022</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="row">
@@ -101,7 +119,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 d-flex align-items-center">
-                            <div class="project-wrapper__text">
+                            <div class="project-wrapper__text mx-auto">
                                 <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="100">Michaela D. Angbengco</h2>
                                 <div data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="200">
                                     <h3 class="mb-4 proj-desc ">SK Kagawad &nbsp 2018 - 2022</h3>
@@ -114,7 +132,7 @@
 
                     <div class="row">
                         
-                        <div class="col-lg-4 d-flex align-items-center">
+                        <div class="col-lg-4 d-flex align-items-center d-sm-none show-lg">
                             <div class="project-wrapper__text">
                                 <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="100">Lawrence Ralph A. Niedo</h2>
                                 <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200">
@@ -128,6 +146,15 @@
                                 <img src="{{ asset('img/officials/kagawad-3.png') }}"style="width: 60%">
                             </div>
                         </div>
+
+                        <div class="col-lg-4 d-flex align-items-center d-md-none show-sm">
+                            <div class="project-wrapper__text mx-auto">
+                                <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="100">Lawrence Ralph A. Niedo</h2>
+                                <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200">
+                                    <h3 class="mb-4 proj-desc ">SK Kagawad &nbsp 2018 - 2022</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="row">
@@ -137,7 +164,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 d-flex align-items-center">
-                            <div class="project-wrapper__text">
+                            <div class="project-wrapper__text mx-auto">
                                 <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="100">Lesley Anne B. Barredo</h2>
                                 <div data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="200">
                                     <h3 class="mb-4 proj-desc ">SK Kagawad &nbsp 2018 - 2022</h3>
@@ -150,7 +177,7 @@
 
                     <div class="row">
                         
-                        <div class="col-lg-4 d-flex align-items-center">
+                        <div class="col-lg-4 d-flex align-items-center d-sm-none show-lg">
                             <div class="project-wrapper__text">
                                 <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="100">Jayvee Ann F. Ronquillo</h2>
                                 <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200">
@@ -162,6 +189,15 @@
                         <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="200" style="margin-bottom: 20px;">
                             <div class="react-reveal project-wrapper__image">
                                 <img src="{{ asset('img/officials/kagawad-5.png') }}"style="width: 60%">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-flex align-items-center d-md-none show-sm">
+                            <div class="project-wrapper__text mx-auto">
+                                <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="100">Jayvee Ann F. Ronquillo</h2>
+                                <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200">
+                                    <h3 class="mb-4 proj-desc ">SK Kagawad &nbsp 2018 - 2022</h3>
+                                </div>
                             </div>
                         </div>
                     </div>

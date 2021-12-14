@@ -23,3 +23,5 @@ Route::get('/register', function () {
 })->name('registration.index');
 
 Route::post('/register', [MemberController::class, 'create'])->name('registration.process');
+
+Route::get('/members', [MemberController::class, 'index'])->name('registration.list');
