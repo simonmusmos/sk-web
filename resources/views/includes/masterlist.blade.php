@@ -18,7 +18,7 @@
                     </div>
                 </form>
                 <!--Table-->
-                <table class="table table-hover">
+                <table class="table table-hover table-responsive-lg">
                     <!--Table head-->
                     <thead class="mdb-color darken-3 py-4">
                         <tr class="text-white">
