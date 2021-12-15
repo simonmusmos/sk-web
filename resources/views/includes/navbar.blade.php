@@ -9,19 +9,18 @@
     <!-- Container wrapper -->
     <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">Brand</a>
 
         <!-- Toggle button -->
         <button
           class="navbar-toggler"
           type="button"
-          data-mdb-toggle="collapse"
-          data-mdb-target="#navbarSupportedContent"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-            <i class="fas fa-bars"></i>
+            <i class="fa fa-bars" style="color: #1c2a48"></i>
         </button>
 
         <!-- Collapsible wrapper -->
