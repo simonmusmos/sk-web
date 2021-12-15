@@ -83,7 +83,7 @@ $(".previous").click(function(){
 	});
 });
 
-$(".submit").click(function(){
+$("#msform .submit").click(function(){
 	if(checkValues("misc")){
 		$(this).attr("disabled", true);
 		$("#msform").submit();
@@ -116,6 +116,43 @@ $("#msform").submit(function(e){
 	});
 });
 
+$("#login-form").submit(function(e){
+	e.preventDefault();
+
+	console.log(123);
+
+	var form = $(this);
+    var url = form.attr('action');
+
+	$.ajax({
+		type: "POST",
+		url: url,
+		data: form.serialize(), 
+		success: function(data)
+		{
+			data = JSON.parse(data);
+			if(data.result){
+				$.growl.notice({ message: "Page will redirect you in 3 seconds." });
+				setTimeout(function() {
+					window.location.href = data.redirect;
+				}, 3000);
+			}else{
+				$.growl.error({ message: "Invalid credentials!" });
+			}
+		}
+	});
+});
+
+$("#login-form .submit").click(function(){
+	if(checkValues("login")){
+		$(this).attr("disabled", true);
+		$("#login-form").submit();
+	}else{
+		return false;
+	}
+	
+});
+
 
 $("select[name=is_voter]").on("change", function(){
 	$("input[name=precint]").val("");
@@ -140,6 +177,9 @@ function checkValues(type){
         case "misc":
 			fields.push({ name: "education_attainment", type: "text", message: "Education Attainment is empty!"}, { name: "is_voter", type: "special_voter", message: "Please select an answer in voter field!"});
             break;
+		case "login":
+			fields.push({ name: "email", type: "email", message: "Email Address is not valid!"}, { name: "password", type: "text", message: "Password is empty!"});
+			break;
     }
 
 	$.each(fields, function(key, value) {

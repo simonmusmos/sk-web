@@ -42,7 +42,7 @@
 
                     <div class="row">
                         
-                        <div class="col-lg-4 d-flex align-items-center d-sm-none d-xs-none show-lg">
+                        <div class="col-lg-4 d-flex align-items-center d-sm-none show-lg">
                             <div class="project-wrapper__text">
                                 <h2 class="project-wrapper__text-title projttl mb-1" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="100">Veronica L. Broso</h2>
                                 <div data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200">

@@ -39,6 +39,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('registration.list') }}">Sangguniang Kabataan Members</a>
                 </li>
+                @if (Auth::guest())
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('login') }}">Admin Login</a>
+                    </li>
+                @else
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('signout') }}">Logout</a>
+                    </li>
+                @endif
+                
                 <!-- Navbar dropdown -->
                 <!-- <li class="nav-item dropdown">
                     <a

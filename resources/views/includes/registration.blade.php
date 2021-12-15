@@ -5,7 +5,7 @@
             <!-- MultiStep Form -->
 <div class="row">
     <div class="col-md-6 col-md-offset-3 mx-auto">
-        <form id="msform" method="POST" action="{{ route('registration.process') }}">
+        <form id="msform" class="msform" method="POST" action="{{ route('registration.process') }}">
             @csrf
             <!-- progressbar -->
             <ul id="progressbar">
